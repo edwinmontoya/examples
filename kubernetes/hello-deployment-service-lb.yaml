@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: hello
-        image: docker.io/hello-world:latest
+        image: nginx:1.16.1
         ports:
         - containerPort: 8080
 
